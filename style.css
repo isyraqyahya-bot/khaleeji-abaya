@@ -1,32 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fce4ec; /* Changed from #f4f4f4 */
-    color: #444; /* Changed from #333 */
+    background-color: #fce4ec;
+    color: #444;
 }
 
 header {
-    background: #1a237e; /* Changed from #333 */
+    background: #1a237e;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
-/* ... rest of the code ... */
-
-nav a {
-    color: #ffc107; /* Changed from #fff */
-    text-decoration: none;
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-/* ... rest of the code ... */
+nav ul li {
+    margin: 0 10px;
+}
 
+nav a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+section {
+    background: #fff;
+    color: #333;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #1a237e; /* Changed from #333 */
+    background: #1a237e;
     color: #fff;
     margin-top: 2rem;
 }
